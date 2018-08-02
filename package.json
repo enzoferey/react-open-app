@@ -1,6 +1,6 @@
 {
   "name": "react-open-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Open your users native apps using deep links",
   "main": "./dist/index.js",
   "files": [
