@@ -11,7 +11,7 @@
     "build": "webpack --mode=\"production\"",
     "watch": "webpack --watch",
     "prettier": "prettier --config \"./.prettierrc.js\" --write \"./lib/**/*.js\"",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run prettier && npm run build",
     "test": "mocha --recursive --require babel-core/register",
     "test:watch": "mocha --watch --recursive --require babel-core/register"
   },
@@ -43,6 +43,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "mocha": "^5.2.0",
+    "prettier": "1.18.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "webpack": "^4.16.3",
