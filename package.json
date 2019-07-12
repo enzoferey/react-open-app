@@ -1,6 +1,6 @@
 {
   "name": "react-open-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Open your users native apps using deep links",
   "main": "./dist/index.js",
   "files": [
@@ -40,7 +40,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "chai": "^4.1.2",
-    "enzyme": "^3.3.0",
+    "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "mocha": "^5.2.0",
     "prettier": "1.18.2",
